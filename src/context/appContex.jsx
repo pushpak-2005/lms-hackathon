@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { dummyCourses } from '../assets/assets';
 
-
 const AppContext = createContext();
 
  const AppContexProvider = (props) => {
