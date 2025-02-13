@@ -11,6 +11,14 @@ const AppContext = createContext();
     const fetchAllCourses = async ()=>{
         setAllCourses(dummyCourses)
     }
+
+    const calculateRating = (course)=> {
+        if(course.CourseRating.length === 0){
+            return 0;
+        }
+        let CourseRating = 0;
+        course.CourseRatings.forEach()
+    }
     useEffect(()=>{
         fetchAllCourses()
     },[])
